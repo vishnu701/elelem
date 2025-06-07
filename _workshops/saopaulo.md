@@ -425,31 +425,42 @@ article .page__content,
     font-size: 2rem;
   }
   
-  /* Target minimal-mistakes overlay header elements */
+  /* Header overlay with minimal margins for dramatic effect */
   .page__hero--overlay .page__hero-caption,
   .page__hero--overlay .page__title,
   .page__hero--overlay .page__meta,
   .page__hero--overlay .page__lead,
   .page__hero--overlay .archive__item-excerpt {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
   
-  /* Align button with text content */
+  /* Force button alignment with text content */
   .page__hero--overlay .btn,
-  .page__hero--overlay .btn--primary {
-    margin-left: 20px !important;
-    margin-right: 20px !important;
+  .page__hero--overlay .btn--primary,
+  .page__hero--overlay a.btn,
+  .page__hero--overlay a.btn--primary {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
+    display: inline-block !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* Override any button container that might be centering */
+  .page__hero--overlay .page__hero-caption .btn,
+  .page__hero--overlay .archive__item .btn {
+    margin-left: 5px !important;
   }
   
   /* Force container padding for overlay */
   .page__hero--overlay {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
   }
   
   /* Target the wrapper inside overlay */
@@ -749,7 +760,7 @@ Participants also join a professional network of applied AI practitioners across
     </div>
     <div class="faculty-member">
       <div class="faculty-avatar">
-        <i class="fas fa-user"></i>
+        <img src="{{ '/assets/images/team/ChrisGumb.jpeg' | relative_url }}" alt="Chris Gumb">
       </div>
       <h4>Chris Gumb</h4>
       <div class="role">Teaching Fellow</div>
@@ -769,7 +780,7 @@ Participants also join a professional network of applied AI practitioners across
     </div>
     <div class="faculty-member">
       <div class="faculty-avatar">
-        <i class="fas fa-user"></i>
+        <img src="{{ '/assets/images/team/Itamar.png' | relative_url }}" alt="Itamar Rocha Filho">
       </div>
       <h4>Itamar Rocha Filho</h4>
       <div class="role">Teaching Fellow</div>
