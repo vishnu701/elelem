@@ -29,15 +29,12 @@ search: false
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -49,9 +46,6 @@ collections:
   workshops:
     output: true
     permalink: /:collection/:name/
-  catalog:
-    output: true
-    permalink: /:collection/:path/
 
 # Masthead
 masthead_title: "EL EL EM"
@@ -78,7 +72,7 @@ defaults:
       share: false
       related: false
 
-  # _cities
+  # _workshops
   - scope:
       path: ""
       type: workshops
