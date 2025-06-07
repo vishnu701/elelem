@@ -1,0 +1,142 @@
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+        {% endunless %}
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          {{ site.masthead_title | default: site.title }}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+        </a>
+        
+        <div class="nav-right">
+          <ul class="visible-links">
+            <!-- Custom Workshops link as first nav item -->
+            <li class="masthead__menu-item workshops-item">
+              <div class="workshops-bar">
+                <a href="{{ '/workshops/' | relative_url }}" class="workshops-link">
+                  <i class="fas fa-globe"></i> Workshops
+                </a>
+              </div>
+            </li>
+            {%- for link in site.data.navigation.main -%}
+              <li class="masthead__menu-item">
+                <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+              </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+        {% if site.search == true %}
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <i class="fas fa-search"></i>
+        </button>
+        {% endif %}
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<style>
+.workshops-bar {
+  background: #809AFF;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.workshops-link {
+  color: white !important;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.workshops-link:hover {
+  color: #f0f0f0 !important;
+}
+
+.workshops-link i {
+  margin-right: 5px;
+}
+
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.masthead__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-right {
+  display: flex !important;
+  align-items: center !important;
+  margin-left: auto !important;
+  flex: 1 !important;
+  justify-content: flex-end !important;
+}
+
+.nav-right .visible-links {
+  display: flex !important;
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-left: auto !important;
+}
+
+.nav-right .visible-links li {
+  list-style: none !important;
+  margin-left: 15px !important;
+}
+
+.workshops-item {
+  margin-left: 0 !important;
+}
+
+.workshops-item .workshops-bar {
+  margin-right: 0 !important;
+}
+
+/* Override any theme defaults that might interfere */
+.greedy-nav .visible-links {
+  margin-left: auto !important;
+}
+
+.greedy-nav {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+.site-title .site-subtitle {
+  font-size: 0.7em;
+  color: #666;
+  display: block;
+  margin-top: -5px;
+}
+
+@media (max-width: 768px) {
+  .workshops-bar {
+    margin-right: 10px;
+    padding: 6px 12px;
+  }
+  
+  .workshops-link {
+    font-size: 0.8em;
+  }
+}
+</style>

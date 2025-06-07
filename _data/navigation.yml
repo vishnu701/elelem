@@ -1,0 +1,45 @@
+main:
+  - title: "About"
+    url: /about/
+
+citiesnav:
+  - title: Europe
+    children:
+      - title: "Paris"
+        url: /workshops/paris/
+      - title: "Rome"
+        url: /workshops/rome/
+      - title: "Barcelona"
+        url: /workshops/barcelona/
+      - title: "Amsterdam"
+        url: /workshops/amsterdam/
+  - title: Asia
+    children:
+      - title: "Tokyo"
+        url: /workshops/tokyo/
+      - title: "Bangkok"
+        url: /workshops/bangkok/
+      - title: "Singapore"
+        url: /workshops/singapore/
+      - title: "Mumbai"
+        url: /workshops/mumbai/
+  - title: Americas
+    children:
+      - title: "New York"
+        url: /workshops/newyork/
+      - title: "San Francisco"
+        url: /workshops/sanfrancisco/
+      - title: "São Paulo"
+        url: /workshops/saopaulo/
+      - title: "Buenos Aires"
+        url: /workshops/buenosaires/
+  - title: Africa & Oceania
+    children:
+      - title: "Cape Town"
+        url: /workshops/capetown/
+      - title: "Marrakech"
+        url: /workshops/marrakech/
+      - title: "Sydney"
+        url: /workshops/sydney/
+      - title: "Auckland"
+        url: /workshops/auckland/
