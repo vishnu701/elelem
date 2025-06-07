@@ -52,13 +52,32 @@ worldtour/
 
 ### GitHub Pages Deployment
 
-This site is configured for GitHub Pages deployment using the minimal-mistakes theme.
+This site is configured for GitHub Pages deployment with custom domain support.
 
+#### For Subdomain (info.theepochtour.ai):
 1. Fork or clone this repository
-2. Update `_config.yml` with your GitHub username in the `url` field
-3. Push to your GitHub repository
-4. Enable GitHub Pages in repository settings
-5. Your site will be available at `https://your-username.github.io/repository-name`
+2. The `CNAME` file is already configured for `info.theepochtour.ai`
+3. Configure DNS with Hostinger:
+   - Go to Hostinger DNS Zone Editor for `theepochtour.ai`
+   - Add **CNAME Record**:
+     - **Name**: `info`
+     - **Points to**: `vishnu701.github.io`
+     - **TTL**: 3600 (or default)
+4. Push to your GitHub repository
+5. Enable GitHub Pages in repository settings
+6. Set custom domain to `info.theepochtour.ai` in Pages settings
+7. Enable "Enforce HTTPS"
+
+#### For GitHub.io subdomain (if not using custom domain):
+1. Delete the `CNAME` file
+2. Update `_config.yml` with `https://vishnu701.github.io/elelem`
+3. Follow steps 5-6 above
+
+Your subdomain site will be available at `https://info.theepochtour.ai` within a few hours of DNS propagation.
+
+## Domain Structure
+- **Main Website**: `theepochtour.ai` (served by Wix Studio)
+- **Workshop Info**: `info.theepochtour.ai` (this Jekyll site on GitHub Pages)
 
 ## Customization
 
