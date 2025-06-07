@@ -4,9 +4,9 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        {% unless logo_path == empty %}
-          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
-        {% endunless %}
+        <a class="site-logo" href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/images/logo/wave_form_transparent.svg' | relative_url }}" alt="EL EL EM Logo">
+        </a>
         <a class="site-title" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
@@ -122,6 +122,23 @@
   width: 100% !important;
 }
 
+.site-logo {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.site-logo img {
+  height: 40px;
+  width: auto;
+  vertical-align: middle;
+}
+
+.site-title {
+  vertical-align: middle;
+  display: inline-block;
+}
+
 .site-title .site-subtitle {
   font-size: 0.7em;
   color: #666;
@@ -130,6 +147,14 @@
 }
 
 @media (max-width: 768px) {
+  .site-logo img {
+    height: 32px;
+  }
+  
+  .site-logo {
+    margin-right: 10px;
+  }
+  
   .workshops-bar {
     margin-right: 10px;
     padding: 6px 12px;

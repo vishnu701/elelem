@@ -2,7 +2,7 @@
 layout: splash
 title: The Epoch Tour
 subtitle: Teaching the world to speak LLM
-excerpt: "Master Large Language Models with world-class faculty across the globe. Join our intensive workshops and become a leader in the AI revolution."
+excerpt: "Teaching the world to speak LLM"
 header:
   overlay_image: /assets/images/header/summerschool.jpg
   overlay_filter: "0.5"
@@ -11,12 +11,12 @@ header:
       url: "/workshops/"
       btn_class: "btn--primary"
     - label: "Apply Now"
-      url: "mailto:workshops@epochtour.com"
+      url: "mailto:info@theepochtour.ai"
       btn_class: "btn--success"
 ---
 
 # The Epoch Tour
-*Teaching the world to speak LLM*
+Master Large Language Models with world-class faculty across the globe. Join our intensive workshops and become a leader in the AI revolution.
 
 ## Transform Your Career with LLM Mastery
 
@@ -32,8 +32,8 @@ Forget boring online courses. Our world-traveling faculty delivers **intensive, 
 
 - **World-Class Faculty** from Harvard & Leading Tech Companies
 - **Hands-On Learning** with Live APIs & Production Systems  
-- **Global Network** of 1000+ AI Professionals Across 4 Continents
-- **Career Transformation** 95% Report Promotion Within 6 Months
+- **Global Network** of AI Professionals Across 4 Continents
+
 
 ---
 
@@ -91,7 +91,7 @@ Forget boring online courses. Our world-traveling faculty delivers **intensive, 
 
 **We don't just teach AI. We create AI legends.**
 
-- **Faculty That Actually Ships:** Harvard researchers + industry veterans who've built billion-dollar AI systems
+- **Faculty That Actually Ships:** Harvard researchers + industry veterans who've built AI systems in production.
 - **Elite Cohorts:** Maximum 150 brilliant minds per workshop (we turn away thousands)
 - **Intensive & Addictive:** 3 days that feel like 3 months of learning
 - **Global Brotherhood:** Your classmates will become your co-founders and business partners
@@ -105,8 +105,7 @@ Forget boring online courses. Our world-traveling faculty delivers **intensive, 
 **Stop watching. Start building.** The companies hiring AI talent today will dominate tomorrow. Don't let your competitors get there first.
 
 ### Secure Your Spot:
-- **Priority Access:** [workshops@epochtour.com](mailto:workshops@epochtour.com)
-- **Direct Line:** [+1 (555) EPOCH-AI](tel:+1-555-EPOCH-AI)
+- **Contact:** [info@theepochtour.ai](mailto:info@theepochtour.ai)
 
 ---
 

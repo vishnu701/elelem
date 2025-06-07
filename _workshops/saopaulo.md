@@ -252,8 +252,27 @@ header:
 
 .venue-link:hover {
   background: #000000;
-  color: white;
+  color: white !important;
   text-decoration: none;
+}
+
+/* Override theme default link colors */
+.venue-links a {
+  background: #809AFF !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.venue-links a:hover {
+  background: #000000 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.venue-links a:visited {
+  background: #809AFF !important;
+  color: white !important;
+  text-decoration: none !important;
 }
 
 .cta-section {
@@ -346,17 +365,17 @@ This intensive workshop offers a comprehensive, hands-on introduction to Large L
 Participants will explore text preprocessing, neural networks, and transformer architecture before advancing to real-world applications including customer support automation, content generation, and enterprise AI integration.
 
 <div class="info-grid">
-  <div class="info-card">
+  <!-- <div class="info-card">
     <h3>Participants</h3>
     <div class="metric">150</div>
     <p>Maximum capacity for optimal learning experience</p>
-  </div>
+  </div> -->
   
-  <div class="info-card">
+  <!-- <div class="info-card">
     <h3>Investment</h3>
     <div class="metric">$500</div>
     <p>Per participant, including all materials and catering</p>
-  </div>
+  </div> -->
   
   <div class="info-card">
     <h3>Duration</h3>
@@ -582,11 +601,11 @@ Participants also join a professional network of applied AI practitioners across
   <p>Limited to 150 participants. Early registration recommended.</p>
   
   <div class="cta-buttons">
-    <a href="mailto:workshops@epochtour.com" class="cta-btn">Apply Now</a>
+    <a href="mailto:info@theepochtour.ai" class="cta-btn">Apply Now</a>
     <a href="/experiences/saopaulo/" class="cta-btn">Learn More</a>
   </div>
   
   <div style="margin-top: 30px; font-size: 0.9rem;">
-    <p><strong>Contact:</strong> workshops@epochtour.com | +55 11 9999-9999</p>
+    <p><strong>Contact:</strong> info@theepochtour.ai</p>
   </div>
 </div>

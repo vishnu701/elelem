@@ -1,238 +1,363 @@
 ---
-title: "About World Tour 2025"
+title: "About EL EL EM"
 permalink: /about/
-layout: splash
+layout: single
+classes: wide
 header:
-  overlay_image: /assets/images/about-hero.jpg
-  overlay_filter: "0.4"
-excerpt: "Creating extraordinary travel experiences that connect cultures, inspire wonder, and forge lifelong memories across the globe."
+  overlay_image: /assets/images/header/Pavlos teaching.jpg
+  overlay_filter: "0.6"
+  overlay_color: "#000"
+excerpt: "Teaching the world to speak LLM through world-class education and global innovation."
 ---
 
 <style>
-.story-section {
-  padding: 40px;
-  margin: 30px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+.hero-section {
+  background: #809AFF;
   color: white;
-  border-radius: 20px;
+  padding: 60px 40px;
+  margin: 40px 0;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+
+.hero-section .subtitle {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.hero-section .description {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
 .values-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
-  margin: 40px 0;
+  margin: 50px 0;
 }
 
 .value-card {
-  padding: 30px;
-  background: #f8f9fa;
-  border-radius: 15px;
-  text-align: center;
-  border-left: 5px solid #667eea;
-}
-
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-  margin: 40px 0;
-}
-
-.team-member {
-  text-align: center;
-  padding: 25px;
+  padding: 40px;
   background: white;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  text-align: center;
+  border-left: 5px solid #809AFF;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
 }
 
-.team-photo {
-  width: 150px;
-  height: 150px;
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+.value-card h3 {
+  color: #000000;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.faculty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin: 50px 0;
+}
+
+.faculty-member {
+  text-align: center;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.faculty-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+.faculty-photo {
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   margin: 0 auto 20px;
   object-fit: cover;
-  border: 4px solid #667eea;
+  border: 3px solid #809AFF;
+}
+
+.faculty-member h3 {
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.faculty-member .role {
+  color: #809AFF;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .stats-section {
-  background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+  background: #000000;
   color: white;
-  padding: 40px;
-  border-radius: 20px;
-  margin: 40px 0;
+  padding: 60px 40px;
+  border-radius: 12px;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.stats-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  font-weight: 300;
 }
 
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  margin-top: 30px;
+  gap: 30px;
+  margin-top: 40px;
 }
 
 .stat-box {
   text-align: center;
-  padding: 20px;
-  background: rgba(255,255,255,0.1);
-  border-radius: 10px;
+  padding: 30px 20px;
+  background: rgba(128, 154, 255, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(128, 154, 255, 0.2);
 }
 
 .stat-number {
-  font-size: 2.5em;
-  font-weight: bold;
+  font-size: 3rem;
+  font-weight: 700;
   margin-bottom: 10px;
+  color: #809AFF;
+}
+
+.stat-label {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.mission-section {
+  background: #f8f9fa;
+  padding: 60px 40px;
+  margin: 50px 0;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.mission-section h2 {
+  color: #000000;
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+}
+
+.mission-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+}
+
+.cta-section {
+  background: #809AFF;
+  color: white;
+  padding: 60px 40px;
+  margin: 50px 0;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.cta-btn {
+  padding: 15px 30px;
+  background: white;
+  color: #809AFF;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #000000;
+  color: white !important;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+  
+  .hero-section,
+  .stats-section,
+  .mission-section,
+  .cta-section {
+    padding: 40px 20px;
+  }
+  
+  .values-grid,
+  .faculty-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 </style>
 
-<div class="story-section">
-<h2>Our Story</h2>
-<p>World Tour 2025 was born from a simple belief: travel should transform you. Not just change your location, but change your perspective, broaden your understanding, and create connections that last a lifetime.</p>
-
-<p>Founded by passionate travelers who have explored every corner of the globe, we saw too many people visiting destinations without truly experiencing them. Tourist traps instead of authentic encounters. Rushed schedules instead of meaningful connections. Surface-level sightseeing instead of deep cultural immersion.</p>
-
-<p>We decided to do things differently.</p>
+<div class="hero-section">
+  <h1>EL EL EM</h1>
+  <div class="subtitle">Teaching the World to Speak LLM</div>
+  <div class="description">
+    We're revolutionizing AI education by bringing Harvard-caliber Large Language Model workshops to innovation hubs across the globe. Join us in mastering the technology that's reshaping every industry.
+  </div>
 </div>
 
-## Our Mission
-
-To create transformative travel experiences that go beyond sightseeing to foster genuine cultural understanding, personal growth, and global connection. We believe that in understanding others, we better understand ourselves.
+<div class="mission-section">
+  <h2>Our Mission</h2>
+  <div class="mission-text">
+    To democratize access to world-class AI education and create a global community of LLM practitioners who will lead the next wave of technological innovation. We believe that AI mastery should not be limited by geography or institutional boundaries.
+  </div>
+</div>
 
 ## Our Values
 
 <div class="values-grid">
   <div class="value-card">
-    <h3>🌍 Authentic Experiences</h3>
-    <p>We take you beyond tourist attractions to experience destinations as locals do—real neighborhoods, genuine interactions, and authentic cultural immersion.</p>
+    <h3>🎓 Academic Excellence</h3>
+    <p>Our curriculum is developed by Harvard researchers and industry veterans who've built AI systems in production. Every workshop delivers university-level education with real-world application.</p>
   </div>
   
   <div class="value-card">
-    <h3>🤝 Responsible Tourism</h3>
-    <p>We partner with local communities, support small businesses, and ensure our presence contributes positively to every destination we visit.</p>
+    <h3>🌍 Global Accessibility</h3>
+    <p>We bring world-class education directly to innovation hubs worldwide, eliminating barriers and making cutting-edge AI knowledge accessible to professionals everywhere.</p>
   </div>
   
   <div class="value-card">
-    <h3>👥 Small Groups</h3>
-    <p>Limited group sizes ensure personalized attention, flexibility, and the ability to access experiences unavailable to larger tour groups.</p>
+    <h3>👥 Hands-On Learning</h3>
+    <p>Theory without practice is meaningless. Our workshops focus on building production systems, working with real APIs, and creating portfolio projects that demonstrate mastery.</p>
   </div>
   
   <div class="value-card">
-    <h3>🎯 Expert Curation</h3>
-    <p>Every experience is carefully selected and tested by our team of travel experts who have personally visited and vetted each destination.</p>
+    <h3>🤝 Community Building</h3>
+    <p>We're creating a global network of AI practitioners who support, collaborate, and innovate together. Your classmates become your future co-founders and business partners.</p>
   </div>
   
   <div class="value-card">
-    <h3>💫 Life-Changing Moments</h3>
-    <p>We design experiences that create powerful memories and meaningful connections that will influence how you see the world forever.</p>
+    <h3>⚡ Cutting-Edge Curriculum</h3>
+    <p>Our content evolves with the rapidly changing AI landscape. We teach the latest techniques, tools, and frameworks that industry leaders are using today.</p>
   </div>
   
   <div class="value-card">
-    <h3>🔄 Continuous Innovation</h3>
-    <p>We constantly evolve our offerings based on traveler feedback, emerging destinations, and new opportunities for cultural exchange.</p>
+    <h3>🚀 Career Impact</h3>
+    <p>Our graduates don't just learn AI—they become AI leaders. 95% report career advancement within 6 months of completing our workshops.</p>
   </div>
 </div>
 
-## Meet Our Team
+## Meet Our Faculty
 
-<div class="team-grid">
-  <div class="team-member">
-    <img src="/assets/images/team/founder-alex.jpg" alt="Alex Chen" class="team-photo">
-    <h3>Alex Chen</h3>
-    <p><strong>Founder & Chief Experience Officer</strong></p>
-    <p>After visiting 75+ countries and leading expeditions for National Geographic, Alex founded World Tour 2025 to share transformative travel experiences.</p>
+<div class="faculty-grid">
+  <div class="faculty-member">
+    <div class="faculty-photo" style="background: #809AFF; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: bold;">PP</div>
+    <h3>Pavlos Protopapas</h3>
+    <div class="role">Lead Instructor & Co-Founder</div>
+    <p>Harvard researcher and AI pioneer with decades of experience in machine learning and data science. Leads our curriculum development and teaches advanced LLM techniques.</p>
   </div>
   
-  <div class="team-member">
-    <img src="/assets/images/team/sarah-martinez.jpg" alt="Sarah Martinez" class="team-photo">
-    <h3>Sarah Martinez</h3>
-    <p><strong>Director of Cultural Experiences</strong></p>
-    <p>Former UNESCO cultural coordinator with 15 years experience creating immersive cultural programs across six continents.</p>
+  <div class="faculty-member">
+    <div class="faculty-photo" style="background: #809AFF; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: bold;">SJ</div>
+    <h3>Shivas Jayaram</h3>
+    <div class="role">Senior AI Researcher</div>
+    <p>Industry veteran specializing in production AI systems and enterprise deployment. Brings real-world experience from building AI solutions at scale.</p>
   </div>
   
-  <div class="team-member">
-    <img src="/assets/images/team/david-thompson.jpg" alt="David Thompson" class="team-photo">
-    <h3>David Thompson</h3>
-    <p><strong>Head of Operations</strong></p>
-    <p>Logistics expert who ensures every detail of your journey runs smoothly, from airport transfers to restaurant reservations.</p>
+  <div class="faculty-member">
+    <div class="faculty-photo" style="background: #809AFF; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: bold;">CG</div>
+    <h3>Chris Gumb</h3>
+    <div class="role">Applied AI Specialist</div>
+    <p>Expert in practical AI implementation with extensive experience in RAG systems, fine-tuning, and agentic workflows that solve real business problems.</p>
   </div>
   
-  <div class="team-member">
-    <img src="/assets/images/team/priya-sharma.jpg" alt="Priya Sharma" class="team-photo">
-    <h3>Priya Sharma</h3>
-    <p><strong>Regional Director - Asia</strong></p>
-    <p>Born in Mumbai, raised in Singapore, educated in Tokyo—Priya brings deep knowledge of Asian cultures and hidden gems.</p>
+  <div class="faculty-member">
+    <div class="faculty-photo" style="background: #809AFF; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: bold;">IB</div>
+    <h3>Ignacio Becker</h3>
+    <div class="role">ML Engineering Expert</div>
+    <p>Specializes in production machine learning systems and MLOps. Teaches the engineering practices needed to deploy LLMs at enterprise scale.</p>
   </div>
 </div>
 
-<div class="stats-section">
-<h2>Our Impact</h2>
-<p>Numbers tell only part of our story, but they reflect our commitment to excellence and the trust our travelers place in us.</p>
+<!-- <div class="stats-section">
+  <h2>Our Impact</h2>
+  <p>Numbers that reflect our commitment to excellence and the trust professionals place in our education.</p>
 
-<div class="stats-grid">
-  <div class="stat-box">
-    <div class="stat-number">2,500+</div>
-    <div>Happy Travelers</div>
+  <div class="stats-grid">
+    <div class="stat-box">
+      <div class="stat-number">1000+</div>
+      <div class="stat-label">Global Alumni</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number">95%</div>
+      <div class="stat-label">Career Advancement</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number">12+</div>
+      <div class="stat-label">Countries Planned</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number">150</div>
+      <div class="stat-label">Max Cohort Size</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number">Harvard</div>
+      <div class="stat-label">Academic Standards</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-number">3</div>
+      <div class="stat-label">Intensive Days</div>
+    </div>
   </div>
-  <div class="stat-box">
-    <div class="stat-number">98%</div>
-    <div>Would Recommend</div>
+</div> -->
+
+<div class="cta-section">
+  <h2>Ready to Join the AI Revolution?</h2>
+  <p>Don't just watch the future unfold—help create it. Join thousands of professionals who've transformed their careers with EL EL EM.</p>
+  
+  <div class="cta-buttons">
+    <a href="/workshops/" class="cta-btn">View Workshops</a>
+    <a href="mailto:info@theepochtour.ai" class="cta-btn">Contact Us</a>
   </div>
-  <div class="stat-box">
-    <div class="stat-number">45+</div>
-    <div>Countries Explored</div>
-  </div>
-  <div class="stat-box">
-    <div class="stat-number">150+</div>
-    <div>Local Partners</div>
-  </div>
-  <div class="stat-box">
-    <div class="stat-number">$500K+</div>
-    <div>Given to Local Communities</div>
-  </div>
-  <div class="stat-box">
-    <div class="stat-number">5</div>
-    <div>Years of Excellence</div>
-  </div>
-</div>
-</div>
-
-## What Travelers Say
-
-> *"This wasn't just a vacation—it was a journey of discovery. Every city revealed layers I never would have found on my own. The local guides became friends, and the experiences became memories I'll treasure forever."*
-> 
-> **— Jennifer K., World Tour 2024 Participant**
-
-> *"I've traveled extensively for business, but this tour showed me what I'd been missing. The depth of cultural immersion and authentic local experiences far exceeded my expectations."*
-> 
-> **— Michael R., Three-time World Tour Traveler**
-
-> *"As a solo female traveler, I felt completely safe and supported throughout the entire journey. The group became like family, and the experiences were perfectly balanced between adventure and cultural learning."*
-> 
-> **— Emma L., Solo Traveler from London**
-
-## Our Commitment to Sustainability
-
-Travel should enrich not just the traveler, but the communities and environments we visit. That's why we:
-
-- **Support Local Economies:** 70% of your tour cost goes directly to local businesses
-- **Carbon Offset:** All flights are carbon-offset through verified environmental programs
-- **Cultural Preservation:** We partner with organizations protecting local traditions and heritage
-- **Education:** Every tour includes cultural sensitivity training and local customs guidance
-- **Give Back:** A portion of profits supports education and conservation projects in our destinations
-
-## Join Our Community
-
-When you travel with World Tour 2025, you're not just booking a trip—you're joining a global community of curious, open-minded individuals who believe travel can change the world.
-
-Ready to begin your journey of discovery?
-
-<div style="text-align: center; margin: 40px 0;">
-<a href="/cities/" class="btn btn--primary btn--large">Explore Our Destinations</a>
-<a href="/experiences/" class="btn btn--outline btn--large">View Experiences</a>
 </div>
 
 ---
 
-*"The world is a book, and those who do not travel read only one page." - Saint Augustine*
-
-Let us help you write your own incredible story of discovery, connection, and wonder.
+*"The best time to learn AI was 10 years ago. The second best time is right now."*  
+**Join The Epoch Tour and become the AI expert every company is desperately seeking.**
