@@ -419,9 +419,43 @@ article .page__content,
   margin: 0 auto !important;
 }
 
+/* Mobile responsive fixes */
 @media (max-width: 768px) {
   .workshop-hero h1 {
     font-size: 2rem;
+  }
+  
+  /* Target minimal-mistakes overlay header elements */
+  .page__hero--overlay .page__hero-caption,
+  .page__hero--overlay .page__title,
+  .page__hero--overlay .page__meta,
+  .page__hero--overlay .page__lead,
+  .page__hero--overlay .archive__item-excerpt {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Align button with text content */
+  .page__hero--overlay .btn,
+  .page__hero--overlay .btn--primary {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  
+  /* Force container padding for overlay */
+  .page__hero--overlay {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  
+  /* Target the wrapper inside overlay */
+  .page__hero--overlay .wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   
   .cta-buttons {
@@ -433,13 +467,92 @@ article .page__content,
     flex-direction: column;
   }
   
-  /* Maintain responsive behavior on mobile */
-  .page__content,
+  /* Override content width constraints on mobile - exclude masthead */
+  .layout--single,
   .page,
+  .page__content,
   .page__inner-wrap,
-  .wrapper {
+  .wrapper,
+  article,
+  article .page__content,
+  main {
     max-width: 100% !important;
-    padding: 0 15px;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Add consistent padding to page content only */
+  .page__content {
+    padding: 0 35px !important;
+  }
+  
+  /* Make all content sections with comfortable margins */
+  .workshop-hero,
+  .info-grid,
+  .schedule-section,
+  .faculty-section,
+  .prerequisites-section,
+  .venue-section,
+  .investment-section,
+  .cta-section {
+    width: calc(100% - 40px) !important;
+    max-width: none !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* Ensure body and html don't have margins/padding */
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+  }
+  
+  /* Horizontal scroll for schedule table */
+  .schedule-section {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .schedule-table {
+    min-width: 600px;
+    overflow-x: auto;
+  }
+  
+  .schedule-table table {
+    width: 100%;
+    min-width: 600px;
+  }
+  
+  /* Better mobile table styling */
+  .schedule-table th,
+  .schedule-table td {
+    padding: 10px 8px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+  
+  .schedule-table th:first-child,
+  .schedule-table td:first-child {
+    min-width: 80px;
+  }
+  
+  .schedule-table th:nth-child(2),
+  .schedule-table td:nth-child(2) {
+    min-width: 100px;
+  }
+  
+  .schedule-table th:nth-child(3),
+  .schedule-table td:nth-child(3) {
+    min-width: 300px;
+    white-space: normal;
   }
 }
 </style>
