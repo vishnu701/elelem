@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Global LLM Workshops"
+title: "The Epoch Tour Workshops"
 permalink: /workshops/
 author_profile: false
 classes: wide
@@ -219,8 +219,8 @@ header:
       <p>Comprehensive hands-on introduction to Large Language Models for professionals, researchers, and advanced practitioners.</p>
       
       <ul class="workshop-highlights">
-        <li>3 intensive days of hands-on learning</li>
-        <li>Build production RAG systems</li>
+        <li>2.5 intensive days of hands-on learning</li>
+        <li>Build Agentic Systems</li>
         <li>Expert faculty from Harvard & industry</li>
         <li>Maximum 150 participants</li>
       </ul>

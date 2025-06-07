@@ -4,13 +4,13 @@
 
 ## About
 
-The Epoch Tour by EL EL EM brings world-class Large Language Model education to global innovation hubs. Our intensive workshops transform professionals into AI leaders through hands-on learning with real APIs and production systems.
+The Epoch Tour by EL EL EM brings world-class Large Language Model education to global innovation hubs. Our intensive workshops transform professionals into AI leaders through hands-on learning with real APIs and systems.
 
 ## Features
 
 - **Global Workshops**: LLM education across major tech hubs worldwide
 - **Expert Faculty**: Harvard researchers and industry veterans
-- **Hands-On Learning**: Real API integration and production systems
+- **Hands-On Learning**: Real API integration
 - **Professional Network**: Connect with AI practitioners globally
 - **Brand Colors**: #809AFF and Black for consistent branding
 

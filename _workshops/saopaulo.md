@@ -152,6 +152,31 @@ header:
   backdrop-filter: blur(10px);
 }
 
+.faculty-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 15px auto;
+  overflow: hidden;
+  border: 3px solid #809AFF;
+  background: #809AFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.faculty-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.faculty-avatar i {
+  font-size: 2rem;
+}
+
 .faculty-member h4 {
   margin-bottom: 5px;
   font-weight: 600;
@@ -160,6 +185,79 @@ header:
 .faculty-member .role {
   font-size: 0.9rem;
   opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+.faculty-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.faculty-link {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #809AFF;
+  color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 10px;
+  transition: all 0.3s ease;
+}
+
+.faculty-link:hover {
+  background: #000000 !important;
+  color: white !important;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.faculty-link:visited {
+  background: #809AFF !important;
+  color: white !important;
+}
+
+.faculty-link.harvard {
+  background: #A51C30 !important;
+}
+
+.faculty-link.harvard:hover {
+  background: #8B1538 !important;
+}
+
+.faculty-link.harvard:visited {
+  background: #A51C30 !important;
+  color: white !important;
+}
+
+.faculty-link.linkedin {
+  background: #0077B5 !important;
+}
+
+.faculty-link.linkedin:hover {
+  background: #005885 !important;
+}
+
+.faculty-link.linkedin:visited {
+  background: #0077B5 !important;
+  color: white !important;
+}
+
+.faculty-link.scholar {
+  background: #4285F4 !important;
+}
+
+.faculty-link.scholar:hover {
+  background: #3367D6 !important;
+}
+
+.faculty-link.scholar:visited {
+  background: #4285F4 !important;
+  color: white !important;
 }
 
 .prerequisites-section {
@@ -314,13 +412,9 @@ header:
   transform: translateY(-2px);
 }
 
-/* Simple wider layout with proper centering */
-.page__content {
-  max-width: 1100px !important;
-  margin: 0 auto !important;
-}
-
-.masthead__inner-wrap {
+/* Simple wider layout with proper centering - target only main content, not masthead */
+article .page__content,
+.page__inner-wrap {
   max-width: 1100px !important;
   margin: 0 auto !important;
 }
@@ -379,7 +473,7 @@ Participants will explore text preprocessing, neural networks, and transformer a
   
   <div class="info-card">
     <h3>Duration</h3>
-    <div class="metric">3</div>
+    <div class="metric">2.5</div>
     <p>Intensive days of hands-on learning</p>
   </div>
   
@@ -394,10 +488,9 @@ Participants will explore text preprocessing, neural networks, and transformer a
 
 **Faculty-led instruction** combined with **interactive coding laboratories** and **practitioner discussions**. Participants work directly with industry-standard APIs (OpenAI, Hugging Face) implementing:
 
+- Agentic workflow development
 - Retrieval-Augmented Generation (RAG)
 - LoRA-based fine-tuning techniques  
-- Agentic workflow development
-- Enterprise integration strategies
 
 All learning is project-focused and application-driven, ensuring immediate practical value.
 
@@ -440,7 +533,7 @@ All learning is project-focused and application-driven, ensuring immediate pract
         </tr>
         <tr>
           <td><strong>Saturday<br>8/9/2025</strong></td>
-          <td>09:30-12:00</td>
+          <td>09:30-11:30</td>
           <td>
             <div class="session-title">ChatGPT & API Integration</div>
             <div class="session-exercise">Hands-on: Working with LLM APIs</div>
@@ -448,7 +541,7 @@ All learning is project-focused and application-driven, ensuring immediate pract
         </tr>
         <tr>
           <td></td>
-          <td>13:00-15:30</td>
+          <td>12:00-14:00</td>
           <td>
             <div class="session-title">Agentic Systems</div>
             <div class="session-exercise">Hands-on: Simple Agentic Flow Development</div>
@@ -456,7 +549,7 @@ All learning is project-focused and application-driven, ensuring immediate pract
         </tr>
         <tr>
           <td></td>
-          <td>16:00-18:30</td>
+          <td>15:30-17:30</td>
           <td>
             <div class="session-title">Advanced Agents & RAG</div>
             <div class="session-exercise">Hands-on: Self-RAG Implementation</div>
@@ -464,7 +557,7 @@ All learning is project-focused and application-driven, ensuring immediate pract
         </tr>
         <tr>
           <td><strong>Sunday<br>8/10/2025</strong></td>
-          <td>09:30-12:00</td>
+          <td>09:30-11:30</td>
           <td>
             <div class="session-title">Retrieval-Augmented Generation</div>
             <div class="session-exercise">Hands-on: Advanced RAG Techniques</div>
@@ -472,7 +565,7 @@ All learning is project-focused and application-driven, ensuring immediate pract
         </tr>
         <tr>
           <td></td>
-          <td>13:00-15:30</td>
+          <td>12:00-14:00</td>
           <td>
             <div class="session-title">Model Fine-tuning</div>
             <div class="session-exercise">Hands-on: Fine-tuning with QLoRA</div>
@@ -480,7 +573,7 @@ All learning is project-focused and application-driven, ensuring immediate pract
         </tr>
         <tr>
           <td></td>
-          <td>16:00-18:30</td>
+          <td>15:30-17:30</td>
           <td>
             <div class="session-title">State-of-the-Art Techniques</div>
             <div class="session-exercise">Hands-on: Latest LLM Developments</div>
@@ -499,7 +592,6 @@ Upon completion, participants will demonstrate proficiency in:
 - **API Integration** - Implement advanced LLM architectures using industry-standard APIs
 - **Model Customization** - Fine-tune models for specific use cases using LoRA and QLoRA
 - **System Deployment** - Deploy agentic systems and retrieval-based pipelines
-- **Enterprise Integration** - Embed LLMs into production tools and platforms
 
 Participants also join a professional network of applied AI practitioners across Latin America.
 
@@ -509,24 +601,85 @@ Participants also join a professional network of applied AI practitioners across
   
   <div class="faculty-grid">
     <div class="faculty-member">
+      <div class="faculty-avatar">
+        <img src="{{ '/assets/images/team/PavlosProtopapas.jpeg' | relative_url }}" alt="Pavlos Protopapas">
+      </div>
       <h4>Pavlos Protopapas</h4>
       <div class="role">Lead Instructor</div>
+      <div class="faculty-links">
+        <a href="https://seas.harvard.edu/person/pavlos-protopapas" class="faculty-link harvard" target="_blank" title="Harvard Directory"><i class="fas fa-university"></i></a>
+        <a href="https://www.linkedin.com/in/pavlos-protopapas-a2156a4/" class="faculty-link linkedin" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://scholar.google.com/citations?user=hlFnwxwAAAAJ&hl=en" class="faculty-link scholar" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      </div>
     </div>
     <div class="faculty-member">
-      <h4>Shivas Jayaram</h4>
-      <div class="role">Senior AI Researcher</div>
-    </div>
-    <div class="faculty-member">
-      <h4>Chris Gumb</h4>
-      <div class="role">Applied AI Specialist</div>
-    </div>
-    <div class="faculty-member">
+      <div class="faculty-avatar">
+        <img src="{{ '/assets/images/team/IgnacioBecker.jpeg' | relative_url }}" alt="Ignacio Becker">
+      </div>
       <h4>Ignacio Becker</h4>
-      <div class="role">ML Engineering Expert</div>
+      <div class="role">Co-Instructor</div>
+      <div class="faculty-links">
+        <a href="https://seas.harvard.edu/person/ignacio-becker-troncoso" class="faculty-link harvard" target="_blank" title="Harvard Directory"><i class="fas fa-university"></i></a>
+        <a href="https://www.linkedin.com/in/ignacio-becker/" class="faculty-link linkedin" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://scholar.google.com/citations?user=qIX3ldUAAAAJ&hl=en" class="faculty-link scholar" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+      </div>
     </div>
     <div class="faculty-member">
+      <div class="faculty-avatar">
+        <img src="{{ '/assets/images/team/ShivasJayaram.jpg' | relative_url }}" alt="Shivas Jayaram">
+      </div>
+      <h4>Shivas Jayaram</h4>
+      <div class="role">Teaching Fellow</div>
+      <div class="faculty-links">
+        <a href="https://www.linkedin.com/in/shivasj/" class="faculty-link linkedin" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="faculty-member">
+      <div class="faculty-avatar">
+        <i class="fas fa-user"></i>
+      </div>
+      <h4>Chris Gumb</h4>
+      <div class="role">Teaching Fellow</div>
+      <div class="faculty-links">
+        <a href="https://www.linkedin.com/in/chris-gumb-28856875/" class="faculty-link linkedin" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="faculty-member">
+      <div class="faculty-avatar">
+        <img src="{{ '/assets/images/team/VishnuM.png' | relative_url }}" alt="Vishnu M">
+      </div>
       <h4>Vishnu M</h4>
-      <div class="role">Technical Lead</div>
+      <div class="role">Teaching Fellow</div>
+      <div class="faculty-links">
+        <a href="https://www.linkedin.com/in/vishnu701/" class="faculty-link linkedin" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+    <div class="faculty-member">
+      <div class="faculty-avatar">
+        <i class="fas fa-user"></i>
+      </div>
+      <h4>Itamar Rocha Filho</h4>
+      <div class="role">Teaching Fellow</div>
+      <div class="faculty-links">
+        <a href="https://www.linkedin.com/in/itamarrocha/" class="faculty-link linkedin" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="faculty-section">
+  <h2>Management</h2>
+  
+  <div class="faculty-grid">
+    <div class="faculty-member">
+      <div class="faculty-avatar">
+        <i class="fas fa-user"></i>
+      </div>
+      <h4>Giulia Federighi</h4>
+      <div class="role">Program Director</div>
+      <div class="faculty-links">
+        <a href="#" class="faculty-link linkedin" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
     </div>
   </div>
 </div>
@@ -566,6 +719,7 @@ Participants also join a professional network of applied AI practitioners across
       <li>Understanding of REST API concepts and JSON handling</li>
     </ul>
   </div>
+  <p style="margin-top: 30px; font-style: italic; color: #666; text-align: center;"><strong>Pre-Workshop Preparation:</strong> Comprehensive pre-reading materials and setup guides will be provided to all participants prior to workshop commencement to ensure optimal learning outcomes.</p> 
 </div>
 
 <div class="venue-section">
@@ -584,9 +738,9 @@ Participants also join a professional network of applied AI practitioners across
 
 <div class="investment-section">
   <h2>Investment</h2>
-  <div class="price-highlight">$500</div>
+  <div class="price-highlight">1000π BRL</div>
   <p><strong>Comprehensive workshop fee includes:</strong></p>
-  <p>All sessions and materials • Premium API access • Catering and refreshments • Professional networking opportunities • Completion certificate • Ongoing community access</p>
+  <p>All sessions and materials • Catering and refreshments • Professional networking opportunities • Completion certificate • Ongoing community access</p>
 </div>
 
 ## Registration Process

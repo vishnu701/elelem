@@ -264,7 +264,7 @@ excerpt: "Teaching the world to speak LLM through world-class education and glob
   
   <div class="value-card">
     <h3>👥 Hands-On Learning</h3>
-    <p>Theory without practice is meaningless. Our workshops focus on building production systems, working with real APIs, and creating portfolio projects that demonstrate mastery.</p>
+    <p>Theory without practice is meaningless. Our workshops focus on building systems, working with real APIs, and creating portfolio projects that demonstrate mastery.</p>
   </div>
   
   <div class="value-card">

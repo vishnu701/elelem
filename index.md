@@ -31,7 +31,7 @@ Forget boring online courses. Our world-traveling faculty delivers **intensive, 
 ### The Numbers Don't Lie
 
 - **World-Class Faculty** from Harvard & Leading Tech Companies
-- **Hands-On Learning** with Live APIs & Production Systems  
+- **Hands-On Learning** with Popular APIs   
 - **Global Network** of AI Professionals Across 4 Continents
 
 
@@ -68,7 +68,7 @@ Forget boring online courses. Our world-traveling faculty delivers **intensive, 
 ### What You'll Actually Build:
 
 **Real Systems That Actually Work**
-- Ship production RAG systems using OpenAI & HuggingFace APIs
+- Ship RAG systems using OpenAI & HuggingFace APIs
 - Deploy AI agents that solve real business problems
 - Fine-tune models that outperform GPT-4 on your specific tasks
 - Walk away with a portfolio that gets you hired
@@ -80,9 +80,9 @@ Forget boring online courses. Our world-traveling faculty delivers **intensive, 
 - Master prompting techniques that feel like magic
 
 **Your New Global AI Family**
-- Code alongside practitioners from Fortune 500 companies
-- Join our exclusive 1000+ member alumni network
-- Get fast-tracked for AI roles through our placement partnerships
+- Code alongside practitioners from renowned companies
+- Join our exclusive alumni network
+- Get fast-tracked for AI roles
 - Access lifetime mentorship from industry leaders
 
 ---
@@ -93,8 +93,7 @@ Forget boring online courses. Our world-traveling faculty delivers **intensive, 
 
 - **Faculty That Actually Ships:** Harvard researchers + industry veterans who've built AI systems in production.
 - **Elite Cohorts:** Maximum 150 brilliant minds per workshop (we turn away thousands)
-- **Intensive & Addictive:** 3 days that feel like 3 months of learning
-- **Global Brotherhood:** Your classmates will become your co-founders and business partners
+- **Intensive & Addictive:** 2.5 days that feel like 3 months of learning
 - **Portfolio That Pays:** Leave with projects that literally get you hired
 - **Lifetime Access:** Once EL EL EM, always EL EL EM—your global AI family for life
 
