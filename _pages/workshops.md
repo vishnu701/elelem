@@ -3,7 +3,6 @@ layout: single
 title: "The Epoch Tour Workshops"
 permalink: /workshops/
 author_profile: false
-classes: wide
 header:
   overlay_image: /assets/images/header/Pavlos teaching.jpg
   overlay_filter: "0.6"
@@ -51,6 +50,7 @@ header:
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 40px;
   margin: 50px 0;
+  justify-content: center;
 }
 
 .workshop-card {
@@ -206,17 +206,19 @@ header:
   </div>
 </div> -->
 
-## Current Workshops
+<div class="workshop-cta">
+  <h2>Current Workshops</h2>
+</div>
 
 <div class="workshops-grid">
   <div class="workshop-card">
     <div class="workshop-card-header">
       <h3>Applied LLM Workshop</h3>
-      <div class="location">São Paulo, Brazil</div>
+      <div class="location">São Paulo, Brazil 🇧🇷</div>
       <div class="date">August 8-10, 2025</div>
     </div>
     <div class="workshop-card-body">
-      <p>Comprehensive hands-on introduction to Large Language Models for professionals, researchers, and advanced practitioners.</p>
+      <p>Comprehensive hands-on introduction to Large Language Models for professionals, researchers, students, and advanced practitioners.</p>
       
       <ul class="workshop-highlights">
         <li>2.5 intensive days of hands-on learning</li>

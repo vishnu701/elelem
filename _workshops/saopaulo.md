@@ -1,5 +1,5 @@
 ---
-title: "São Paulo - Applied LLM Workshop" 
+title: "🇧🇷 São Paulo - Applied LLM Workshop" 
 permalink: /workshops/saopaulo/
 cycle: worldtour2025
 classes: wide
@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/header/HeaderDesign4.jpeg
   actions:
     - label: "Register for Workshop"
-      url: "/experiences/saopaulo/"
+      url: "https://lu.ma/ixs6oeqw"
       btn_class: "btn--primary"
 ---
 
@@ -127,6 +127,23 @@ header:
   color: #6c757d;
   font-size: 0.9rem;
   font-style: italic;
+}
+
+.event-lunch, .event-talk, .event-social {
+  text-align: center;
+  font-weight: bold;
+}
+
+.event-lunch {
+  background-color: #e8f5e9 !important; /* Light Green */
+}
+
+.event-talk {
+  background-color: #f2f4ff;
+}
+
+.event-social {
+  background-color: #fff8e1;
 }
 
 .faculty-section {
@@ -572,13 +589,13 @@ article .page__content,
   <h1>Applied LLM Workshop</h1>
   <div class="subtitle">Professional Development in Large Language Models</div>
   <div style="margin-top: 20px; font-size: 1rem;">
-    <strong>São Paulo, Brazil</strong> | August 8-10, 2025 | IBMEC University
+    <strong>São Paulo, Brazil 🇧🇷</strong> | August 8-10, 2025 | IBMEC University
   </div>
 </div>
 
 ## Course Overview
 
-This intensive workshop offers a comprehensive, hands-on introduction to Large Language Models (LLMs) for professionals, researchers, and advanced practitioners. The program balances theoretical foundations with practical implementation, covering everything from core concepts to advanced deployment strategies.
+This intensive workshop offers a comprehensive, hands-on introduction to Large Language Models (LLMs) for professionals, students, researchers, and advanced practitioners. The program balances theoretical foundations with practical implementation, covering everything from core concepts to advanced deployment strategies.
 
 Participants will explore text preprocessing, neural networks, and transformer architecture before advancing to real-world applications including customer support automation, content generation, and enterprise AI integration.
 
@@ -633,7 +650,7 @@ All learning is project-focused and application-driven, ensuring immediate pract
       <tbody>
         <tr>
           <td><strong>Friday<br>8/8/2025</strong></td>
-          <td>12:00-14:00</td>
+          <td>12:30-14:00</td>
           <td>
             <div class="session-title">Introduction to Language Models</div>
             <div class="session-exercise">Hands-on: Text Preprocessing & Language Model Fundamentals</div>
@@ -656,6 +673,13 @@ All learning is project-focused and application-driven, ensuring immediate pract
           </td>
         </tr>
         <tr>
+          <td></td>
+          <td>19:00-</td>
+          <td>
+            <div class="session-title">Happy Hour & Networking (Sponsor: TBD)</div>
+          </td>
+        </tr>
+        <tr>
           <td><strong>Saturday<br>8/9/2025</strong></td>
           <td>09:30-11:30</td>
           <td>
@@ -665,10 +689,24 @@ All learning is project-focused and application-driven, ensuring immediate pract
         </tr>
         <tr>
           <td></td>
-          <td>12:00-14:00</td>
+          <td>11:30-12:30</td>
+          <td>
+            <div class="session-title">Lunch Break</div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>12:30-14:30</td>
           <td>
             <div class="session-title">Agentic Systems</div>
             <div class="session-exercise">Hands-on: Simple Agentic Flow Development</div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>14:30-15:30</td>
+          <td>
+            <div class="session-title">Fireside Chat with AI Startup Founders</div>
           </td>
         </tr>
         <tr>
@@ -677,6 +715,13 @@ All learning is project-focused and application-driven, ensuring immediate pract
           <td>
             <div class="session-title">Advanced Agents & RAG</div>
             <div class="session-exercise">Hands-on: Self-RAG Implementation</div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>17:30-</td>
+          <td>
+            <div class="session-title">Happy Hour & Networking (Sponsor: TBD)</div>
           </td>
         </tr>
         <tr>
@@ -689,10 +734,24 @@ All learning is project-focused and application-driven, ensuring immediate pract
         </tr>
         <tr>
           <td></td>
-          <td>12:00-14:00</td>
+          <td>11:30-12:30</td>
+          <td>
+            <div class="session-title">Lunch Break</div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>12:30-14:30</td>
           <td>
             <div class="session-title">Model Fine-tuning</div>
             <div class="session-exercise">Hands-on: Fine-tuning with QLoRA</div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>14:30-15:30</td>
+          <td>
+            <div class="session-title">Fireside Chat with VCs investing in AI</div>
           </td>
         </tr>
         <tr>
@@ -814,7 +873,7 @@ Participants also join a professional network of applied AI practitioners across
   <div class="prereq-category">
     <h3>Programming Skills</h3>
     <ul class="prereq-list">
-      <li>Proficiency in Python (essential for coding exercises and API usage)</li>
+      <li>Familiarity with Python (essential for coding exercises and API usage)</li>
       <li>Familiarity with machine learning frameworks (PyTorch or TensorFlow)</li>
     </ul>
   </div>
@@ -823,15 +882,13 @@ Participants also join a professional network of applied AI practitioners across
     <h3>AI & Machine Learning Knowledge</h3>
     <ul class="prereq-list">
       <li>Understanding of supervised and unsupervised learning</li>
-      <li>Knowledge of loss functions and optimization</li>
-      <li>Experience with model evaluation metrics</li>
     </ul>
   </div>
   
   <div class="prereq-category">
     <h3>Neural Network Experience</h3>
     <ul class="prereq-list">
-      <li>Prior exposure to feed-forward neural network architectures</li>
+      <li>Prior exposure to neural network architectures</li>
       <li>Working knowledge of deep learning frameworks</li>
     </ul>
   </div>
@@ -843,7 +900,7 @@ Participants also join a professional network of applied AI practitioners across
       <li>Understanding of REST API concepts and JSON handling</li>
     </ul>
   </div>
-  <p style="margin-top: 30px; font-style: italic; color: #666; text-align: center;"><strong>Pre-Workshop Preparation:</strong> Comprehensive pre-reading materials and setup guides will be provided to all participants prior to workshop commencement to ensure optimal learning outcomes.</p> 
+  <p style="margin-top: 30px; font-style: italic; color: #666; text-align: center;"><strong>Pre-Workshop Preparation:</strong> We will provide a comprehensive pre-reading material and setup guide to all participants prior to workshop commencement to ensure optimal learning outcomes.</p> 
 </div>
 
 <div class="venue-section">
@@ -851,7 +908,7 @@ Participants also join a professional network of applied AI practitioners across
   
   <p><strong>IBMEC University, São Paulo, Brazil</strong></p>
   
-  <p>State-of-the-art facilities featuring modern classrooms with advanced AV equipment, high-speed internet infrastructure for API integration exercises, collaborative workspace areas, and comprehensive catering facilities.</p>
+  <p>State-of-the-art facilities featuring modern classrooms with advanced AV equipment and high-speed internet infrastructure.</p>
   
   <div class="venue-links">
     <a href="https://tourvirtual.ibmec.br/sp" class="venue-link" target="_blank">Virtual Tour</a>
@@ -862,24 +919,23 @@ Participants also join a professional network of applied AI practitioners across
 
 <div class="investment-section">
   <h2>Investment</h2>
-  <div class="price-highlight">1000π BRL</div>
-  <p><strong>Comprehensive workshop fee includes:</strong></p>
-  <p>All sessions and materials • Catering and refreshments • Professional networking opportunities • Completion certificate • Ongoing community access</p>
+  <div class="price-highlight">3141.5 BRL (1000π)</div>
+  <p><strong>Workshop fee includes:</strong></p>
+  <p>All sessions and materials • Catering and refreshments • Professional networking opportunities • Completion certificate • Ongoing community access • Happy Hours • Gift Bag</p>
 </div>
 
 ## Registration Process
 
-1. **Application Submission** - Complete online application with technical background
-2. **Technical Assessment** - Brief evaluation to ensure prerequisite compliance  
-3. **Confirmation & Payment** - Receive acceptance notification and payment instructions
-4. **Pre-Workshop Preparation** - Access to setup materials and environment configuration
+1. **​Make sure you've got what it takes** - Quick check to confirm prerequisites
+2. **Confirmation & Payment** - Secure your spot
+3. **Pre-Workshop Preparation** - Access to setup materials and environment configuration
 
 <div class="cta-section">
   <h2>Secure Your Position</h2>
   <p>Limited to 150 participants. Early registration recommended.</p>
   
   <div class="cta-buttons">
-    <a href="mailto:info@theepochtour.ai" class="cta-btn">Apply Now</a>
+    <a href="https://lu.ma/ixs6oeqw" class="cta-btn">Register</a>
     <a href="/experiences/saopaulo/" class="cta-btn">Learn More</a>
   </div>
   
