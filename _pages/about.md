@@ -287,28 +287,28 @@ excerpt: "Teaching the world to speak LLM through world-class education and glob
 
 <div class="faculty-grid">
   <div class="faculty-member">
-    <div class="faculty-photo" style="background: #809AFF; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: bold;">PP</div>
+    <img src="{{ '/assets/images/team/PavlosProtopapas.jpeg' | relative_url }}" alt="Pavlos Protopapas" class="faculty-photo">
     <h3>Pavlos Protopapas</h3>
     <div class="role">Lead Instructor & Co-Founder</div>
     <p>Harvard researcher and AI pioneer with decades of experience in machine learning and data science. Leads our curriculum development and teaches advanced LLM techniques.</p>
   </div>
   
   <div class="faculty-member">
-    <div class="faculty-photo" style="background: #809AFF; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: bold;">SJ</div>
+    <img src="{{ '/assets/images/team/ShivasJayaram.jpg' | relative_url }}" alt="Shivas Jayaram" class="faculty-photo">
     <h3>Shivas Jayaram</h3>
     <div class="role">Senior AI Researcher</div>
     <p>Industry veteran specializing in production AI systems and enterprise deployment. Brings real-world experience from building AI solutions at scale.</p>
   </div>
   
   <div class="faculty-member">
-    <div class="faculty-photo" style="background: #809AFF; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: bold;">CG</div>
+    <img src="{{ '/assets/images/team/ChrisGumb.jpeg' | relative_url }}" alt="Chris Gumb" class="faculty-photo">
     <h3>Chris Gumb</h3>
     <div class="role">Applied AI Specialist</div>
     <p>Expert in practical AI implementation with extensive experience in RAG systems, fine-tuning, and agentic workflows that solve real business problems.</p>
   </div>
   
   <div class="faculty-member">
-    <div class="faculty-photo" style="background: #809AFF; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: bold;">IB</div>
+    <img src="{{ '/assets/images/team/IgnacioBecker.jpeg' | relative_url }}" alt="Ignacio Becker" class="faculty-photo">
     <h3>Ignacio Becker</h3>
     <div class="role">ML Engineering Expert</div>
     <p>Specializes in production machine learning systems and MLOps. Teaches the engineering practices needed to deploy LLMs at enterprise scale.</p>
