@@ -12,7 +12,7 @@ header:
   teaser: /assets/images/header/HeaderDesign4.jpeg
   actions:
     - label: "Register for Workshop"
-      url: "https://lu.ma/ixs6oeqw"
+      url: "https://lu.ma/epoch"
       btn_class: "btn--primary"
 ---
 
@@ -935,7 +935,7 @@ Participants also join a professional network of applied AI practitioners across
   <p>Limited to 150 participants. Early registration recommended.</p>
   
   <div class="cta-buttons">
-    <a href="https://lu.ma/ixs6oeqw" class="cta-btn">Register</a>
+    <a href="https://lu.ma/epoch" class="cta-btn">Register</a>
     <a href="/experiences/saopaulo/" class="cta-btn">Learn More</a>
   </div>
   
