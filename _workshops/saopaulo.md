@@ -856,12 +856,12 @@ Participants also join a professional network of applied AI practitioners across
   <div class="faculty-grid">
     <div class="faculty-member">
       <div class="faculty-avatar">
-        <i class="fas fa-user"></i>
+        <img src="{{ '/assets/images/team/Giulia.jpeg' | relative_url }}" alt="Giulia Federighi">
       </div>
       <h4>Giulia Federighi</h4>
       <div class="role">Program Director</div>
       <div class="faculty-links">
-        <a href="#" class="faculty-link linkedin" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.linkedin.com/in/giulia-lunardelli-federighi" class="faculty-link linkedin" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
       </div>
     </div>
   </div>
